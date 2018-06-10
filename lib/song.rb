@@ -45,7 +45,7 @@ class Song
     song = self.new
     array = filename.split(/\s-\s|(.mp3)/)
     song.name = array[1]
-    song.artist = array[0]
+    song.artist_name = array[0]
 
   end
 
