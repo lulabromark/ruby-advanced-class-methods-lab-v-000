@@ -54,7 +54,7 @@ class Song
     array = filename.split(/\s-\s|(.mp3)/)
     song.name = array[1]
     song.artist_name = array[0]
-    save
+    song.save
   end
 
   def save
